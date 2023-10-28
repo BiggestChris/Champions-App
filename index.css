@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+
+#upper-portion h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+#upper-portion h1 {
+    font-size: 25px;
+}
+
+#upper-portion h2 {
+    font-size: 20px;
+}
+#upper-portion img {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+#upper-portion textarea {
+    border-radius: 8px;
+    background: #444059;
+    padding: 10px 10px 20px 10px;
+    margin: 0 0 10px 0;
+    border: 0;
+    height: 80px;
+    line-height: normal;
+    flex-shrink: 0;
+    color: #8F8F8F;
+}
+
+#upper-portion button {
+    border-radius: 8px;
+    background: #28A9F1;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    color: #04131C;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#upper-portion {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto -10px auto;
+}
+
+#to-and-from {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#upper-portion input {
+    border-radius: 8px;
+    background: #444059;
+    padding: 10px 10px 10px 10px;
+    margin: 0 0 10px 0;
+    border: 0;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    display: inline;
+    width: 42%;
+}
+
+#lower-portion {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0px auto 50px auto;
+}
+
+.endorsement {
+    background: #FFF;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px;
+    margin: 5px 0;
+}
